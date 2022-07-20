@@ -52,3 +52,12 @@ w[3:5]
 w[c(1,3,5)]
 w[c(-2,-4)] #print all except second and fourth
 
+#Vector operations
+v1 <- c(12,96,56,78)
+v2 <- c(3,12,7,2)
+res <- v1+v2
+print(res)
+res <- v1-v2
+print(res)
+res <- v1/v2
+res
