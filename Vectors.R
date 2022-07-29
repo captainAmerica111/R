@@ -33,6 +33,27 @@ w
 v <- w[-3]
 w[3:5]
 
+#========================================================= ARRAYS ===================================================
+# Create two vectors of different lengths.
+vector1 <- c(5,9,3)
+vector2 <- c(10,11,12,13,14,15)
+
+# Take these vectors as input to the array.
+result <- array(c(vector1,vector2),dim = c(3,3,2))
+print(result)
+
+
+# Create two vectors of different lengths.
+vector1 <- c(5,9,3)
+vector2 <- c(10,11,12,13,14,15)
+column.names <- c("COL1","COL2","COL3")
+row.names <- c("ROW1","ROW2","ROW3")
+matrix.names <- c("Matrix1","Matrix2","Matrix3")
+
+# Take these vectors as input to the array.
+result <- array(c(vector1,vector2),dim = c(3,3,3),dimnames = list(row.names,column.names, matrix.names))
+print(result)
+
 w[c(1,3,5)]
 w[c(-2,-4)] #print all except second and fourth
 
