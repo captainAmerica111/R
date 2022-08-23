@@ -28,6 +28,12 @@ is.character(v3)
 w <- c("a","b","c","d","e")
 w
 
+#Mulptilying Vectore
+1:4 * 2 #will multiply all the elements with 2 
+# The output is 2,4,6,8
+
+1:4 * 5:8 # will multiply elements of both the vectors elements with each other
+# 1*5 , 2*6 , 3*7 .....
 
 
 v <- w[-3]
